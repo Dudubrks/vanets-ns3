@@ -100,11 +100,13 @@
  */
 
 #include "ns3/aodv-module.h"
+#include "ns3/dsdv-module.h"
+#include "ns3/dsr-module.h"
+#include "ns3/olsr-module.h"
+
 #include "ns3/applications-module.h"
 #include "ns3/config-store-module.h"
 #include "ns3/core-module.h"
-#include "ns3/dsdv-module.h"
-#include "ns3/dsr-module.h"
 #include "ns3/flow-monitor-module.h"
 #include "ns3/integer.h"
 #include "ns3/internet-module.h"
@@ -112,7 +114,6 @@
 #include "ns3/mobility-module.h"
 #include "ns3/network-module.h"
 #include "ns3/ocb-wifi-mac.h"
-#include "ns3/olsr-module.h"
 #include "ns3/wave-bsm-helper.h"
 #include "ns3/wave-helper.h"
 #include "ns3/wave-mac-helper.h"
