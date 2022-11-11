@@ -14,6 +14,11 @@ build_lib(
     helper/gpsr-helper.h
   LIBRARIES_TO_LINK ${libinternet}
                     ${libwifi}
+                    ${liblocation-service}
+                    ${libapplications}
+                    ${libmesh}
+                    ${libpoint-to-point}
+                    ${libvirtual-net-device}
   TEST_SOURCES
     test/gpsr-test-suite.cc
-)
+) 
